@@ -1,10 +1,4 @@
--- ============================================================
--- Exercício 01 - DDL do contexto "Agendamento de Consultas"
--- SGBD: PostgreSQL
--- ============================================================
-
 -- Pessoa: dados das pessoas que podem ser paciente e/ou médicos
--- (conforme Dicionário de Dados)
 CREATE TABLE Pessoa (
     cpf        CHAR(11)     NOT NULL,
     email      VARCHAR(50)  NOT NULL,
